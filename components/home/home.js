@@ -48,14 +48,14 @@ const Home = () => {
                     <Col lg={2} md={2} sm={6}>
                         <Image src={television } alt="me" width="64" height="64" />
                          <br/>
-                        <Link href="/about"> 
+                        <Link href="/television"> 
                             <a>Relevision</a> 
                         </Link>
                     </Col>
                     <Col lg={2} md={2} sm={6}>
                         <Image src={calendars } alt="me" width="64" height="64" />
                          <br/>
-                        <Link href="/about"> 
+                        <Link href="/news-events"> 
                             <a>Calendars</a> 
                         </Link>
                     </Col>

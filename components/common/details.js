@@ -6,7 +6,7 @@ import Banner from "../../public/category/single.jpg";
 export default function Details(props) {
    return (
       <Fragment>
-        <Container className="marginAndPadding recipes">
+        <Container className="marginAndPadding p-0">
             <Row>
                 <Col lg={12} md={12} sm={12}>
                     <div className="banner">

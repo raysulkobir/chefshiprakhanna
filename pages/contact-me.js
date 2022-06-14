@@ -9,11 +9,10 @@ import Contact from '../components/contact/contact'
  
  
 
-export default function about() {
+export default function ContactMe() {
   return (
     <div>
         <TopNavbar/>
-        <PageTop title='About'/>
         <Contact/>
         
         <Footer/>

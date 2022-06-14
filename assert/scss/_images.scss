@@ -32,4 +32,12 @@
   background-repeat: no-repeat;
   height: 300px;
 }
+
+.topFixeBannerAbout {
+  background-image: url(../../public/category/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 450px;
+}
  

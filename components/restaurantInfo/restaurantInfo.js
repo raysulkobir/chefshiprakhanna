@@ -7,7 +7,7 @@ import b1 from "../../public/restaurant/r1.jpg";
 export default function RestaurantInfo(props) {
    return (
       <Fragment>
-        <Container className="marginAndPadding recipes">
+        <Container fluid className="marginAndPadding recipes">
             <Row>
                 <Col lg={12} md={12} sm={12}>
                     <div className="banner">
@@ -19,7 +19,7 @@ export default function RestaurantInfo(props) {
 
          <Container className="restaurant">
             <Row>
-                 <h2 className='heading-three text-center marginAndPadding'>Restaurant Consultant</h2>
+                 <h2 className='heading-three text-center'>Restaurant Consultant</h2>
                 <Col lg={4} md={4} sm={12}>
                     <Image src={b1} alt="snack" />
                 </Col>

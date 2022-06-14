@@ -11,7 +11,6 @@ export default function about() {
   return (
     <div>
         <TopNavbar/>
-        <PageTop title='About'/>
         <AboutDetails/>
         <Footer/>
     </div>

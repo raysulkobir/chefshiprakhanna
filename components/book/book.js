@@ -9,17 +9,13 @@ import b3 from "../../public/books/b3.jpeg";
 import b4 from "../../public/books/b4.jpg";
 import b5 from "../../public/books/b5.jpg";
 import b6 from "../../public/books/b6.jpg";
- 
 import Banner from "../../public/books/book_banner.jpg";
-
-import desserts from "../../public/recipe/desserts.png"
-import { faBattery3 } from '@fortawesome/free-solid-svg-icons'
  
  
 export default function RecipesAll(){
     return(
         <Fragment>
-            <Container className="marginAndPadding recipes">
+            <Container fluid className="marginAndPadding recipes">
                 <Row>
                     <Col lg={12} md={12} sm={12}>
                         <div className="banner">

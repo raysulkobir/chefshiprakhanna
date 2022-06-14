@@ -27,10 +27,10 @@ export default function TopNavbar() {
                       <Nav.Link href="recipes">KITCHEN</Nav.Link>
                       <Nav.Link href="books">Books</Nav.Link>
                       <Nav.Link href="restaurant">Restaurant</Nav.Link>
-                      <Nav.Link href="contact">Television</Nav.Link>
-                      <Nav.Link href="about">News & Events</Nav.Link>
+                      <Nav.Link href="television">Television</Nav.Link>
+                      <Nav.Link href="news-events">News & Events</Nav.Link>
                       <Nav.Link href="about">Calendars</Nav.Link>
-                      <Nav.Link href="about">Contact Me</Nav.Link>
+                      <Nav.Link href="contact-me">Contact Me</Nav.Link>
                       <Nav.Link href="about">About Me</Nav.Link>
                    </Nav>
                 </Navbar.Collapse>

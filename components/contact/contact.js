@@ -7,7 +7,7 @@ export default function Contact(){
         <Fragment>
             <div className="container marginAndPadding contact">
                 <div className="row">
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 mt-5">
                         <div className="contact-form">
                                 <Form>
                                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
