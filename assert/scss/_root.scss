@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.loadering{
+  text-align: center;
+}
+.marginAndPadding{
+  @include marginAndPadding;
+}
+//! home page
+.heading-one{
+  @include heading-one;
+}
+.heading-three{
+  @include heading-three;
+}
+.topContent {
+  margin-top: 10rem;
+}
+/* start service */
+
+//start analysis
+.p-one{
+  @include p-one;
+}
+
+// home section 
+// footer section
+.website-link{
+  text-align: center;
+  a{
+    text-decoration: none;
+    cursor: pointer;
+    color: $font-color-one;
+    font-weight: $font-weight-five;
+    font-size: $font-size-four;
+  }
+}
+// recipes page 
+.recipes{
+  h1{
+    @include heading-two;
+  }
+}
+// restaurant page 
+.restaurant{
+  img{
+    width: 600px !important;
+  }
+}
+// news section 
+.news{
+  .card{
+    margin-bottom: 20px;
+  }
+  img{
+    height: 600px !important;
+  }
+}
+

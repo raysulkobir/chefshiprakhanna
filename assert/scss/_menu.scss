@@ -1,0 +1,70 @@
+.brand-title {
+  @include heading-four;
+  font-weight: 700;
+}
+.top-bar-after {
+  width: 100%;
+  padding: 20px 0 20px 0;
+  background-color: $top-bat-bd-after !important;
+  transition: all 500ms ease-in-out;
+  border-bottom: 1px solid $border-color-one;
+  a{
+    @include list-reset-after;
+  }
+  position: fixed;
+  z-index: 10;
+}
+.top-bar-before {
+  width: 100%;
+  padding: 10px 0 10px 0;
+  background-color: $top-bat-bd-before !important;
+  transition: all 500ms ease-in-out;
+  a{
+    @include list-reset-before;
+  }
+  position: fixed;
+  z-index: 10;
+}
+
+// header logo and image 
+.header-logo{
+  text-align: center;
+  img{
+    width: 50%;
+    height: auto;
+  }
+}
+
+// image menu 
+.img-menu{
+  text-align: center;
+  img{
+     @include circleImg;
+  }
+  a{
+    text-decoration: none;
+    color: $font-color-two;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: $font-weight-five;
+  }
+  a:hover {
+    color: $font-color-one;
+  }
+}
+
+
+// footer-menu section
+.footer-menu{
+  text-align: center;
+  ul{
+    @include list-ul;
+  }
+  ul li{
+    @include list-ul-li;
+  }
+  ul li a{
+    font-size: 20px !important;
+    @include list-reset-a;
+  }
+}
